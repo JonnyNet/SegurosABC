@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Frameworks And Drivers",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.Entities", "SegurosABC.Entities\SegurosABC.Entities.csproj", "{C111A09D-C11A-49EA-BFE8-5992AB44D12D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.BusinessObjects", "SegurosABC.BusinessObjects\SegurosABC.BusinessObjects.csproj", "{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C111A09D-C11A-49EA-BFE8-5992AB44D12D} = {A133A38D-8468-468C-9B62-BC1E671C5CAA}
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1} = {C9175DE4-6AAD-4322-8956-8227D894D8D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9FAB484-08E1-41E3-A3D1-CDDD735FD3DB}
