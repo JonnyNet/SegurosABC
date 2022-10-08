@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Enterprise Business Rules", "1. Enterprise Business Rules", "{A133A38D-8468-468C-9B62-BC1E671C5CAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application Business Rules", "2. Application Business Rules", "{C9175DE4-6AAD-4322-8956-8227D894D8D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Interface Adapters", "3. Interface Adapters", "{82224A28-A621-4936-A486-28A477F97C6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Frameworks And Drivers", "4. Frameworks And Drivers", "{6386AB31-B7D0-480F-9D65-BDADB60201EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.Entities", "SegurosABC.Entities\SegurosABC.Entities.csproj", "{C111A09D-C11A-49EA-BFE8-5992AB44D12D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D} = {A133A38D-8468-468C-9B62-BC1E671C5CAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9FAB484-08E1-41E3-A3D1-CDDD735FD3DB}
