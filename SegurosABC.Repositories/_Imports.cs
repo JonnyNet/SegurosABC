@@ -1,0 +1,14 @@
+﻿global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Data.SqlClient;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using SegurosABC.BusinessObjects.Interfaces.Contexts;
+global using SegurosABC.BusinessObjects.Interfaces.Repositories;
+global using SegurosABC.Entities.Entities;
+global using SegurosABC.Repositories.DataContext;
+global using SegurosABC.Repositories.Extensions;
+global using System.Data;
+global using System.Data.Common;
+global using System.Reflection;

@@ -3,9 +3,81 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Enterprise Business Rules", "1. Enterprise Business Rules", "{A133A38D-8468-468C-9B62-BC1E671C5CAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application Business Rules", "2. Application Business Rules", "{C9175DE4-6AAD-4322-8956-8227D894D8D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Interface Adapters", "3. Interface Adapters", "{82224A28-A621-4936-A486-28A477F97C6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Frameworks And Drivers", "4. Frameworks And Drivers", "{6386AB31-B7D0-480F-9D65-BDADB60201EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.Entities", "SegurosABC.Entities\SegurosABC.Entities.csproj", "{C111A09D-C11A-49EA-BFE8-5992AB44D12D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.BusinessObjects", "SegurosABC.BusinessObjects\SegurosABC.BusinessObjects.csproj", "{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.UseCases", "SegurosABC.UseCases\SegurosABC.UseCases.csproj", "{987BEDF0-3827-4C51-8D95-74790933D3D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.Repositories", "SegurosABC.Repositories\SegurosABC.Repositories.csproj", "{37841CD3-A6A0-44C2-8FDB-2F5C5EF5EB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.Presenters", "SegurosABC.Presenters\SegurosABC.Presenters.csproj", "{72CFA11C-462E-47DE-9EB2-E82C3DC77010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.Controllers", "SegurosABC.Controllers\SegurosABC.Controllers.csproj", "{F5A5080A-1709-4E59-AE49-0C16C7B621BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.IoC", "SegurosABC.IoC\SegurosABC.IoC.csproj", "{C45925B7-4F4E-4E6F-B67F-A1F45E89D870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegurosABC.WebApi", "SegurosABC.WebApi\SegurosABC.WebApi.csproj", "{6AF60608-716F-43CD-961A-07EAF327E88D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987BEDF0-3827-4C51-8D95-74790933D3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987BEDF0-3827-4C51-8D95-74790933D3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987BEDF0-3827-4C51-8D95-74790933D3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987BEDF0-3827-4C51-8D95-74790933D3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37841CD3-A6A0-44C2-8FDB-2F5C5EF5EB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37841CD3-A6A0-44C2-8FDB-2F5C5EF5EB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37841CD3-A6A0-44C2-8FDB-2F5C5EF5EB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37841CD3-A6A0-44C2-8FDB-2F5C5EF5EB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CFA11C-462E-47DE-9EB2-E82C3DC77010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CFA11C-462E-47DE-9EB2-E82C3DC77010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CFA11C-462E-47DE-9EB2-E82C3DC77010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CFA11C-462E-47DE-9EB2-E82C3DC77010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A5080A-1709-4E59-AE49-0C16C7B621BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A5080A-1709-4E59-AE49-0C16C7B621BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A5080A-1709-4E59-AE49-0C16C7B621BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A5080A-1709-4E59-AE49-0C16C7B621BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45925B7-4F4E-4E6F-B67F-A1F45E89D870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45925B7-4F4E-4E6F-B67F-A1F45E89D870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45925B7-4F4E-4E6F-B67F-A1F45E89D870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45925B7-4F4E-4E6F-B67F-A1F45E89D870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF60608-716F-43CD-961A-07EAF327E88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF60608-716F-43CD-961A-07EAF327E88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF60608-716F-43CD-961A-07EAF327E88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF60608-716F-43CD-961A-07EAF327E88D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C111A09D-C11A-49EA-BFE8-5992AB44D12D} = {A133A38D-8468-468C-9B62-BC1E671C5CAA}
+		{18AD172E-F2EC-4C38-B9D5-340E1B4150E1} = {C9175DE4-6AAD-4322-8956-8227D894D8D6}
+		{987BEDF0-3827-4C51-8D95-74790933D3D5} = {C9175DE4-6AAD-4322-8956-8227D894D8D6}
+		{37841CD3-A6A0-44C2-8FDB-2F5C5EF5EB8A} = {82224A28-A621-4936-A486-28A477F97C6A}
+		{72CFA11C-462E-47DE-9EB2-E82C3DC77010} = {82224A28-A621-4936-A486-28A477F97C6A}
+		{F5A5080A-1709-4E59-AE49-0C16C7B621BD} = {82224A28-A621-4936-A486-28A477F97C6A}
+		{C45925B7-4F4E-4E6F-B67F-A1F45E89D870} = {82224A28-A621-4936-A486-28A477F97C6A}
+		{6AF60608-716F-43CD-961A-07EAF327E88D} = {6386AB31-B7D0-480F-9D65-BDADB60201EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9FAB484-08E1-41E3-A3D1-CDDD735FD3DB}
