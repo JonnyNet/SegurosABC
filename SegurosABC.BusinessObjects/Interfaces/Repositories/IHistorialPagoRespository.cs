@@ -2,6 +2,6 @@
 {
 	public interface IHistorialPagoRespository
 	{
-		Task<IEnumerable<HistoriaPago>> ObtenerHistorialDePagosAsync(int? cedula);
+		Task<IEnumerable<HistoriaPago>> ObtenerHistorialDePagosAsync(string cedula);
 	}
 }

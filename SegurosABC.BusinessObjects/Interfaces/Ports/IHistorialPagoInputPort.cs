@@ -1,6 +1,6 @@
 ﻿namespace SegurosABC.BusinessObjects.Interfaces.Ports
 {
-	public interface IHistorialPagoInputPort : IHandleable<int?>
+	public interface IHistorialPagoInputPort : IHandleable<string>
 	{
 	}
 }
